@@ -11,7 +11,10 @@ export class SubGoalsComponent implements OnInit {
     "Learn About Orchestrating Containers",
     "JWT Authentication",
     "Build an app in ReactJS",
-    "Pick up a Lower Level Programming Language (C / Python)"
+    "AI / Machine Learning",
+    "Vue.js",
+    "Pick up a Lower Level Programming Language (C / Python)",
+    "Start up a social media specifically for this"
   ]
 
   constructor() { }
