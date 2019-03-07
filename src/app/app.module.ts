@@ -10,6 +10,9 @@ import { SubBannerComponent } from './components/home/banner/child/sub-banner/su
 import { InfoComponent } from './components/home/banner/child/info/info.component';
 import { SectionsComponent } from './components/home/sections/sections.component';
 import { SubAboutComponent } from './components/home/sections/child/sub-about/sub-about.component';
+import { SubGoalsComponent } from './components/home/sections/child/sub-goals/sub-goals.component';
+import { SubProjectsComponent } from './components/home/sections/child/sub-projects/sub-projects.component';
+import { FooterComponent } from './components/home/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,10 @@ import { SubAboutComponent } from './components/home/sections/child/sub-about/su
     SubBannerComponent,
     InfoComponent,
     SectionsComponent,
-    SubAboutComponent
+    SubAboutComponent,
+    SubGoalsComponent,
+    SubProjectsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
