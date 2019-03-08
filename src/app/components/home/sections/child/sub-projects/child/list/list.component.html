@@ -1,0 +1,13 @@
+<cdk-virtual-scroll-viewport itemSize="auto">
+    <div *cdkVirtualFor="let repo of repoList;">
+        <div class="box">
+            <h2>{{ repo.name }}</h2>
+            <hr>
+            <p class="is-size-5">{{ repo.description }}</p>
+            
+            <div class="has-text-right">
+                <a class="button is-medium is-outlined is-rounded is-danger">Go to Link</a>
+            </div>
+        </div>
+    </div>
+</cdk-virtual-scroll-viewport>

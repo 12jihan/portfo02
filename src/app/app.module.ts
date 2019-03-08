@@ -1,6 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
+import { ScrollingModule } from '@angular/cdk/scrolling';
+
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -15,6 +17,7 @@ import { SubAboutComponent } from './components/home/sections/child/sub-about/su
 import { SubGoalsComponent } from './components/home/sections/child/sub-goals/sub-goals.component';
 import { SubProjectsComponent } from './components/home/sections/child/sub-projects/sub-projects.component';
 import { FooterComponent } from './components/home/footer/footer.component';
+import { ListComponent } from './components/home/sections/child/sub-projects/child/list/list.component';
 
 @NgModule({
   declarations: [
@@ -28,12 +31,14 @@ import { FooterComponent } from './components/home/footer/footer.component';
     SubAboutComponent,
     SubGoalsComponent,
     SubProjectsComponent,
-    FooterComponent
+    FooterComponent,
+    ListComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    ScrollingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
